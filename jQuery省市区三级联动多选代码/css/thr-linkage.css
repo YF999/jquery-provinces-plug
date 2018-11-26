@@ -1,0 +1,198 @@
+div.thr-linkage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 688px;
+    margin: -260px 0px 0px -444px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.thr-linkage .thr-areas dl dd,
+.thr-linkage .hot_city dl dd,
+.thr-linkage .thr-check-box dl dd,
+.thr-linkage .thr-check-box dl dt {
+    display: inline-block;
+    padding: 2px 10px 2px 16px;
+    background-image: url(../image/thr-checkbox.png);
+    background-repeat: no-repeat;
+    background-position: left 7px;
+    cursor: pointer;
+}
+
+.thr-linkage .thr-areas dl dd {
+    cursor: default;
+}
+
+.thr-linkage .thr-areas dl dd {
+    background: #fff;
+    position: relative;
+}
+
+.thr-linkage .thr-areas dl i {
+    cursor: pointer;
+    content: "";
+    display: block;
+    background-image: url(../image/thr-delete.png);
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.thr-linkage .thr-areas h4 button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0997DC;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px
+}
+
+.thr-linkage .thr-areas h4 button:hover {
+    opacity: 0.9;
+}
+
+.thr-linkage dd.on {
+    background-position: left -22px !important;
+}
+
+.thr-linkage .thr-header {
+    background-color: #eee;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.thr-linkage .thr-header i {
+    line-height: 36px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 5px;
+    height: 36px;
+    width: 38px;
+    background-size: 27%;
+}
+
+.thr-linkage .thr-list-area {
+    width: 150px;
+    height: 346px;
+    overflow-y: scroll;
+}
+
+.thr-areas>h4,
+.thr-areas>dl,
+.thr-check-box {
+    text-align: left;
+}
+
+.thr-check-box dd {
+    margin-left: 10px;
+    padding: 2px 3px 2px 16px !important;
+}
+
+.thr-linkage .thr-list-area ul li:first-child {
+    background-color: #e4e4e4;
+    border-bottom: 1px solid #eee;
+    padding-left: 10px;
+}
+
+.thr-linkage .thr-list-area ul li {
+    border-bottom: 1px solid #eee;
+    line-height: 26px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.thr-linkage .thr-list-area ul li:hover {
+    background-color: #efefef;
+}
+
+.thr-linkage .thr-list-area ul li.on {
+    background-color: #0997DC;
+    color: white;
+}
+
+.thr-linkage .thr-check-box {
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.thr-linkage .thr-select-area {
+    min-height: 26px;
+}
+
+.thr-linkage .thr-close {
+    background: url(../image/thr-close-1.png) 36px 11px;
+    background-repeat: no-repeat;
+}
+
+.thr-linkage .fr {
+    float: right;
+}
+
+.thr-linkage .mtb5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.thr-linkage .fw {
+    font-weight: normal;
+}
+
+.thr-linkage .fz12 {
+    font-size: 12px;
+}
+
+.thr-linkage .fz14 {
+    font-size: 14px;
+}
+
+.thr-linkage .mt10 {
+    margin-top: 10px;
+}
+
+.thr-linkage .fl {
+    float: left;
+}
+
+.thr-linkage .pd10 {
+    padding: 10px !important;
+}
+
+.thr-linkage .fz16 {
+    font-size: 16px;
+}
+
+.thr-linkage-shade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    overflow: hidden;
+}
+
+.checkAllSpan input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    outline: none;
+    display: inline-block;
+    background-image: url(../image/thr-checkbox.png);
+    background-repeat: no-repeat;
+    background-position: left 7px;
+    cursor: pointer;
+}
+
+.checkAllSpan input[type='checkbox']:checked {
+    background-position: left -22px !important;
+}
